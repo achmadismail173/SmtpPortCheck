@@ -7,5 +7,5 @@ clear && wget -qO- "https://raw.githubusercontent.com/achmadismail173/SmtpPortCh
 ```
 ## Check Open Port SMTP on RDP Windows ( PowerShell  )
 ```bash
-Invoke-WebRequest -Uri "https://raw.githubusercontent.com/achmadismail173/SmtpPortCheck/refs/heads/main/RDPCheckSmtpPort.ps1" | Invoke-Expression; Clear-Host
+Clear-Host; Invoke-WebRequest -Uri "https://raw.githubusercontent.com/achmadismail173/SmtpPortCheck/refs/heads/main/RDPCheckSmtpPort.ps1" | Invoke-Expression;
 ```
